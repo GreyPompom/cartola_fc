@@ -1,0 +1,19 @@
+.lineClube{
+    display:flex;
+   padding: 5px;
+   border-bottom: 1px solid rgb(231, 231, 231);
+   background-color: #fff;
+   margin: 10px 10px 0px;
+}
+
+.brasa{
+    max-height:45px;
+}
+
+.infos {
+    max-height: 45px;
+    margin-left:10px;
+}
+.infos h3{
+    margin: 0;
+}
