@@ -1,0 +1,26 @@
+body{
+  background-color: #f5f5f5;
+  color:#000;
+  padding:30px
+}
+
+.logo{
+  width: 150px;
+    margin: 0 10%;
+    border-radius: 8px;
+}
+
+.box{
+  background-color: white;
+  margin: 1px 10%;
+  border-radius: 8px;
+  padding: 1px 5%;
+}
+ul{
+  padding: 0;
+}
+
+a{
+    color: black; 		
+    text-decoration:none;    	 
+}

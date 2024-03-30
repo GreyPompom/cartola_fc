@@ -1,0 +1,46 @@
+.player-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #d1d1d1;
+    margin: 10px;
+    width: 100px;
+    display: grid;
+    justify-items: center;
+}
+
+
+.player-card h3 {
+    font-size: 16px;
+    text-align: center;
+    /* margin-top: 4px; */
+    margin: 8px;
+}
+
+.player-card h3 span {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.player-card p {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.apelido {
+    margin: 2px;
+}
+
+.icon {
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.pont{
+    background-color: #4682B4;
+    border-radius: 60px;
+    margin: 2px;
+
+}
