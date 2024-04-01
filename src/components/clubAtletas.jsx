@@ -32,17 +32,25 @@ function ClubDetail() {
   const clubeNome = clube ? clube.nome : '';
   return (
     <div>
-      <h1>Jogadores do {clubeNome}</h1>    
+  {atletas.length > 0 ? (
+    <div>
+      <h1>Jogadores do {clubeNome}</h1>
       <ul className='atletas'>
         {atletas.map(atleta => (
-            <Atleta
-            foto = {(atleta.foto).replace('FORMATO', '220x220')}
-            nome = {atleta.apelido}
-            posicao= {atleta.posicao}
-            />
+          <Atleta
+            foto={atleta.foto ? atleta.foto.replace('FORMATO', '220x220') : null}
+            nome={atleta.apelido}
+            posicao={atleta.posicao}
+          />
         ))}
       </ul>
     </div>
+  ) : (
+    <div>
+      <h1>Esse clube não retornou jogadores</h1>
+    </div>
+  )}
+</div>
   );
 }
 
